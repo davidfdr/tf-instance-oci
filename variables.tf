@@ -23,7 +23,7 @@ Available flex shapes:
 
 variable "shape" {
   type    = string
-  default = "VM.Standard.A1.Flex"
+  default = "VM.Standard.E2.1"
 }
 
 variable "how_many_nodes" {
