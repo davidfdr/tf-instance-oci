@@ -3,7 +3,12 @@ variable "root_compartment_id" {
 }
 variable "name" {
   type    = string
-  default = "instances-on-with-oracle"
+  default = "tdc-oracle"
+}
+
+variable "description" {
+  type    = string
+  default = "tdc-oracle"
 }
 
 /*
