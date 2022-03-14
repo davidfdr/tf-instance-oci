@@ -43,5 +43,5 @@ variable "ocpus_per_node" {
 
 variable "memory_in_gbs_per_node" {
   type    = number
-  default = 6
+  default = 8
 }
